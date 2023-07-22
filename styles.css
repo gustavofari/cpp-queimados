@@ -122,7 +122,6 @@
     top: 80px;
     left: -100%;
     opacity: 1;
-    transition: all 0.5s ease;
   }
 
   .nav-links {
@@ -650,22 +649,30 @@ INSCREVER-SE
   }
 
   .info {
+    display: flex;
+    justify-content: center;
     grid-column-start: 1;
     grid-column-end: 1;
   }
 
   .list-info {
-    width: 100%;
-    height: 100%;
+    width: 80vw;
   }
 
   .list-info li {
     display: flex;
+    margin: 0 0 0 0;
+
+    padding-right: 40px;
+    margin-top: 10px;
     animation: slide 1s ease;
   }
 
   .list-info img {
     width: 20px;
+    margin: 0 0 0 0;
+    margin-top: 10px;
+
     animation: gira 2s linear infinite;
   }
 
@@ -718,14 +725,13 @@ INSCREVER-SE
   .nav-menu {
     display: block;
     position: absolute;
-    top: 4.6875rem;
+    top: 60px;
     left: 0;
     text-align: center;
     width: 100%;
     z-index: 1;
     visibility: hidden;
     overflow-y: hidden;
-    transition: 0.5s;
   }
   .nav-menu a {
     color: #000;
@@ -765,6 +771,7 @@ INSCREVER-SE
     visibility: visible;
     background-color: #fff;
     overflow-y: auto;
+    transition: 0.7s ease;
   }
   .navbar.active .hamburger {
     border-top-color: transparent;
