@@ -10,6 +10,10 @@ function handleButtonClick(event) {
     nav.classList.remove("active");
     setAria();
   });
+  handleClickOutside(btnMenu, () => {
+    nav.classList.remove("active");
+    setAria();
+  });
   setAria();
 }
 

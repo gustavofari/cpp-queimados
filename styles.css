@@ -648,7 +648,7 @@ INSCREVER-SE
   }
 
   .info {
-    display: flex;
+    display: none;
     justify-content: center;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -765,7 +765,7 @@ INSCREVER-SE
   }
 
   .navbar.active .nav-menu {
-    height: calc(100vh - 4.6875rem);
+    height: 50vh;
 
     visibility: visible;
     background-color: #fff;
