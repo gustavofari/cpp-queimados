@@ -518,6 +518,7 @@
 }
 
 .image-sobre video {
+  z-index: 4;
   height: 70vh;
 }
 
