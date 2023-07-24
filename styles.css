@@ -140,7 +140,7 @@
   }
 
   .navbar-logo {
-    transform: translate(-100%, 0%);
+    transform: translate(-50%, 0%);
   }
 
   .menu-icon {
@@ -243,7 +243,7 @@
 #text-3 {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 30vw;
 }
 
@@ -554,7 +554,7 @@ INSCREVER-SE
   padding: 0 30px 0 30px;
 }
 
-.image-inscrever button {
+.image-inscrever a {
   margin-top: 20px;
   border: none;
   background-color: #a998e5ff;
@@ -570,7 +570,7 @@ INSCREVER-SE
   color: #fff;
 }
 
-.image-inscrever button:hover {
+.image-inscrever a:hover {
   background-color: #a187ff;
   transition: 0.5s ease;
 }
@@ -821,6 +821,9 @@ INSCREVER-SE
   }
 
   #text-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60vw;
   }
 
