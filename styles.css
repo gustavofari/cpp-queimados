@@ -243,7 +243,7 @@
 #text-3 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-left: 10px;
   width: 30vw;
 }
 
@@ -300,6 +300,24 @@
 /* SOBRE CPP */
 /*  */
 /*  */
+
+[data-anime] {
+  opacity: 0;
+  transition: 0.6s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(0px, 50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
 
 .sobre {
   height: 100vh;
@@ -822,7 +840,6 @@ INSCREVER-SE
 
   #text-3 {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 60vw;
   }
