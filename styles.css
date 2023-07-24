@@ -518,7 +518,7 @@
 }
 
 .image-sobre video {
-  z-index: 4;
+  z-index: 1000;
   height: 70vh;
 }
 
@@ -712,6 +712,7 @@ INSCREVER-SE
 
   .image-sobre video {
     margin-right: 0px;
+    z-index: 100;
   }
 
   .image-sobre {
