@@ -281,7 +281,47 @@
   margin-top: 10px;
   word-spacing: 10px;
   margin-right: 40px;
+  font-weight: bold;
   font-size: 1.2rem;
+}
+
+#text-4 img {
+  width: 80px;
+}
+
+#text-4-1 {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #f0e5dd;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  margin-left: 20px;
+
+  width: 30vw;
+}
+
+#text-4-alert {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1rem;
+  color: #969696;
+  margin-bottom: 20px;
+}
+
+#text-4-1 .image-alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#text-4-text {
+  font-weight: bold;
+  text-align: start;
+  padding-left: 10px;
+  margin-bottom: 25px;
 }
 
 .hero-btns {
@@ -1232,16 +1272,26 @@ COMO INSCREVER
   #text-4 {
     text-align: start;
     display: flex;
+    font-weight: bold;
     justify-content: start;
     margin-top: 30px;
     width: 30vw;
-    margin-left: 90px;
+    margin-left: 40px;
     word-spacing: 10px;
     font-size: 2rem;
   }
 
   #text-4-1 {
-    margin-left: 15px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #f0e5dd;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    margin-left: 0px;
+
+    width: 30vw;
   }
 
   .list-info {
