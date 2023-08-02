@@ -907,6 +907,47 @@ INSCREVER-SE
   .btn {
     width: 100%;
   }
+
+  #text-4-1 {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f0e5dd;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    margin-right: 40px;
+    margin-left: -5px;
+
+    width: 70vw;
+  }
+
+  #text-4-alert {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    color: #969696;
+    margin-bottom: 10px;
+  }
+
+  #text-4-1 .image-alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  #text-4-1 .image-alert img {
+    width: 30px;
+  }
+
+  #text-4-text {
+    font-weight: bold;
+    text-align: start;
+    padding-left: 0px;
+    margin-bottom: 25px;
+  }
 }
 
 /* 
