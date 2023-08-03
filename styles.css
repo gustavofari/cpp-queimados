@@ -69,6 +69,7 @@
   list-style: none;
   text-align: center;
   width: 80vw;
+  z-index: 999;
   justify-content: end;
 }
 
@@ -560,7 +561,7 @@
 }
 
 .image-sobre video {
-  z-index: 1000;
+  z-index: 998;
   height: 70vh;
 }
 
