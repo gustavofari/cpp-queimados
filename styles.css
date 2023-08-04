@@ -546,6 +546,7 @@
 .image-sobre video {
   z-index: 998;
   height: 70vh;
+  margin-bottom: 2000px;
 }
 
 /*
@@ -624,7 +625,7 @@ INSCREVER-SE
   margin-top: 100px;
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .title-selecionados {
@@ -838,7 +839,7 @@ INSCREVER-SE
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .sobre {
-    height: 90vh;
+    height: 150vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
