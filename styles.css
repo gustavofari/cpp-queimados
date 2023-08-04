@@ -280,7 +280,7 @@
   flex-direction: column;
   width: 30vw;
   margin-top: 10px;
-  word-spacing: 10px;
+  word-spacing: 5px;
   margin-right: 40px;
   font-weight: bold;
   font-size: 1.2rem;
@@ -295,34 +295,16 @@
   border-radius: 25px;
   background-color: #f0e5dd;
   margin-top: 30px;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 10px;
+  text-align: center;
   margin-left: 20px;
 
   width: 30vw;
 }
 
-#text-4-alert {
-  grid-column: 1 / -1;
-  text-align: center;
-  font-size: 1rem;
-  color: #969696;
-  margin-bottom: 20px;
-}
-
-#text-4-1 .image-alert {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 25px;
-}
-
 #text-4-text {
   font-weight: bold;
-  text-align: start;
+  text-align: center;
   padding-left: 10px;
-  margin-bottom: 25px;
 }
 
 .hero-btns {
@@ -382,6 +364,7 @@
   flex-direction: column;
   align-items: center;
   flex-direction: row;
+  margin-top: 10px;
   animation: slide 1s ease;
 }
 
@@ -637,7 +620,160 @@ INSCREVER-SE
   transition: 0.5s ease;
 }
 
+.selecionados {
+  margin-top: 100px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.title-selecionados {
+  line-height: 60px;
+  font-size: 4rem;
+  height: 80px;
+  text-align: center;
+
+  font-weight: bold;
+}
+
+.selecionados span {
+  color: #a187ff;
+}
+
+.aprovados h1 {
+  width: 30vw;
+  font-size: 1.4rem;
+}
+
+.aprovados p {
+  text-align: justify;
+  font-weight: bold;
+  width: 30vw;
+  margin-top: 20px;
+}
+
+.desistencia p {
+  text-align: justify;
+  width: 30vw;
+  margin: 20px 0 20px 0;
+}
+
+.text-info p {
+  margin: 0 36vw;
+  word-spacing: 0px;
+  text-align: justify;
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+
+.image-selecionados {
+  text-align: center;
+}
+
+.image-selecionados img {
+  width: 350px;
+}
+
+.selecionados-info ul {
+  list-style: none;
+}
+
+.selecionados-info li {
+  padding-top: 5px;
+}
+
+.selecionados h1 {
+  padding-bottom: 40px;
+}
+
+.desistencia {
+  margin-top: 40px;
+}
+
+.desistencia h1 {
+  padding-bottom: 40px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .selecionados {
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  .title-selecionados {
+    line-height: 30px;
+    font-size: 2rem;
+    text-align: center;
+
+    font-weight: bold;
+  }
+
+  .selecionados span {
+    color: #a187ff;
+  }
+
+  .aprovados h1 {
+    width: 70vw;
+    font-size: 1.4rem;
+  }
+
+  .aprovados p {
+    text-align: justify;
+    font-weight: bold;
+    width: 70vw;
+    margin-top: 20px;
+  }
+
+  .desistencia p {
+    text-align: justify;
+    width: 70vw;
+    margin-left: 40px;
+    margin: 20px 0 20px 0;
+  }
+
+  .text-info p {
+    margin: 0 19vw;
+    word-spacing: 0px;
+    text-align: justify;
+    margin-bottom: 80px;
+    margin-top: -40px;
+  }
+
+  .image-selecionados {
+    text-align: center;
+  }
+
+  .image-selecionados img {
+    margin-top: -70px;
+    width: 350px;
+  }
+
+  .selecionados-info ul {
+    list-style: none;
+  }
+
+  .selecionados-info li {
+    padding-top: 5px;
+  }
+
+  .selecionados h1 {
+    padding-bottom: 40px;
+  }
+
+  .desistencia {
+    margin-top: 40px;
+  }
+
+  .desistencia h1 {
+    padding-bottom: 40px;
+  }
+
+  #email-visao {
+    word-spacing: -2px;
+  }
+
   .inscrever {
     height: 270vh;
     width: 100%;
@@ -913,41 +1049,15 @@ INSCREVER-SE
     padding: 10px;
     border-radius: 25px;
     background-color: #f0e5dd;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 10px;
-    margin-right: 40px;
     margin-left: -5px;
-
+    text-align: center;
     width: 70vw;
   }
 
-  #text-4-alert {
-    grid-column: 1 / -1;
-    text-align: center;
-    font-size: 0.8rem;
-    padding-top: 10px;
-    color: #969696;
-    margin-bottom: 10px;
-  }
-
-  #text-4-1 .image-alert {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 25px;
-  }
-
-  #text-4-1 .image-alert img {
-    width: 31px;
-  }
-
   #text-4-text {
+    text-align: center;
     font-weight: bold;
-    text-align: start;
-    padding-left: 0px;
-    margin-bottom: 25px;
+    text-align: center;
   }
 }
 
