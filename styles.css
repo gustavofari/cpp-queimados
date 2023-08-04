@@ -902,9 +902,6 @@ INSCREVER-SE
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  #selecionados {
-    display: none;
-  }
   .image img {
     object-position: 0px 10vh;
   }
