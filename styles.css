@@ -344,6 +344,8 @@
 
 .sobre {
   height: 100vh;
+  overflow-y: hidden;
+
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -547,11 +549,82 @@
   height: 70vh;
 }
 
+/*
+
+
+INSCREVER-SE 
+
+*/
+
+.inscrever {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-inscrever {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-inscrever p {
+  text-align: center;
+}
+
+.text-inscrever #text-number {
+  font-family: "pakal";
+  font-size: 5rem;
+}
+
+.text-inscrever #text-info {
+  font-family: "openSauceBold";
+  font-size: 4rem;
+  line-height: 55px;
+}
+
+.image-inscrever {
+  margin-top: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-inscrever p {
+  line-height: 25px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 30px 0 30px;
+}
+
+.image-inscrever a {
+  margin-top: 20px;
+  border: none;
+  background-color: #a998e5ff;
+  padding: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.image-inscrever a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.image-inscrever a:hover {
+  background-color: #a187ff;
+  transition: 0.5s ease;
+}
+
 .selecionados {
   margin-top: 100px;
   display: grid;
   place-items: center;
-  height: 100vh;
 }
 
 .title-selecionados {
@@ -624,16 +697,13 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .selecionados {
     margin-top: 100px;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
   }
 
   .title-selecionados {
     line-height: 30px;
     font-size: 2rem;
     text-align: center;
-
+    mari
     font-weight: bold;
   }
 
@@ -641,13 +711,20 @@
     color: #a187ff;
   }
 
+  .aprovados {
+    display: grid;
+    min-height: 100vh;
+  }
+
   .aprovados h1 {
     width: 70vw;
     font-size: 1.4rem;
+    background-color: red;
   }
 
   .aprovados p {
     text-align: justify;
+
     font-weight: bold;
     width: 70vw;
     margin-top: 20px;
@@ -765,7 +842,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .sobre {
-    height: 150vh;
+    height: 90vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -1191,7 +1268,7 @@ COMO INSCREVER
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .parceiros {
-    margin-top: 50vh;
+    margin-top: 20vh;
     height: 90vh;
     width: 100%;
     display: grid;
