@@ -344,8 +344,6 @@
 
 .sobre {
   height: 100vh;
-  overflow-y: hidden;
-
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -413,6 +411,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 .text-sobre p {
@@ -546,79 +545,6 @@
 .image-sobre video {
   z-index: 998;
   height: 70vh;
-  margin-bottom: 2000px;
-}
-
-/*
-
-
-INSCREVER-SE 
-
-*/
-
-.inscrever {
-  height: 100vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.text-inscrever {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.text-inscrever p {
-  text-align: center;
-}
-
-.text-inscrever #text-number {
-  font-family: "pakal";
-  font-size: 5rem;
-}
-
-.text-inscrever #text-info {
-  font-family: "openSauceBold";
-  font-size: 4rem;
-  line-height: 55px;
-}
-
-.image-inscrever {
-  margin-top: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.image-inscrever p {
-  line-height: 25px;
-  text-align: center;
-  font-size: 1rem;
-  padding: 0 30px 0 30px;
-}
-
-.image-inscrever a {
-  margin-top: 20px;
-  border: none;
-  background-color: #a998e5ff;
-  padding: 20px;
-  border-radius: 25px;
-  cursor: pointer;
-  color: #fff;
-}
-
-.image-inscrever a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-}
-
-.image-inscrever a:hover {
-  background-color: #a187ff;
-  transition: 0.5s ease;
 }
 
 .selecionados {
@@ -1265,7 +1191,7 @@ COMO INSCREVER
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .parceiros {
-    margin-top: 20vh;
+    margin-top: 50vh;
     height: 90vh;
     width: 100%;
     display: grid;
